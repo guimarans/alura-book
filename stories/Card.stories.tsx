@@ -9,4 +9,4 @@ export default {
 
 const Template: StoryFn<typeof Card> = () => <Card children={undefined}/>
 
-export const Primário = Template.bind({});
+export const Simples = Template.bind({});
