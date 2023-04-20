@@ -35,7 +35,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "alurabooks-ds",
+  "name": "alura-books-ds-guimarans",
   "author": "Kelly Guimarans",
   "module": "dist/alurabooks-ds.esm.js",
   "size-limit": [
