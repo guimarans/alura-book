@@ -1,3 +1,17 @@
+# v0.3.5 (Mon Apr 24 2023)
+
+#### ⚠️ Pushed to `main`
+
+- refactor: remoção de variavel não usada ([@guimarans](https://github.com/guimarans))
+- Merge branch 'main' of https://github.com/guimarans/alura-book into main ([@guimarans](https://github.com/guimarans))
+- feat: desenvolvimento do checkbox ([@guimarans](https://github.com/guimarans))
+
+#### Authors: 1
+
+- Kelly Guimarans ([@guimarans](https://github.com/guimarans))
+
+---
+
 # v0.3.4 (Mon Apr 24 2023)
 
 #### ⚠️ Pushed to `main`
