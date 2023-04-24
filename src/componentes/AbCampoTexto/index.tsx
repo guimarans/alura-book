@@ -16,6 +16,7 @@ const InputEstilizado = styled.input `
     line-height: 24px;
     color: #002F52;
     padding: 8px 24px;
+    margin-bottom: 18px;
     border: 1px solid #002F52;
     border-radius: 45px;
     &:focus{

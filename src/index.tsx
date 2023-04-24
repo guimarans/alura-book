@@ -21,3 +21,4 @@ export * from './componentes/AbGrupoOpcoes';
 export * from './componentes/AbCampoTexto';
 export * from './componentes/AbInputQuantidade';
 export * from './componentes/AbRadioButtonOpcao';
+export * from './componentes/AbModal';
