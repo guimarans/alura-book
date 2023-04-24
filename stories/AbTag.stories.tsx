@@ -9,7 +9,7 @@ export default {
 
 const Template: StoryFn<typeof AbTag> = (args) => <AbTag {...args} />
 
-export const Primário = Template.bind({});
-Primário.args = {
+export const Padrão = Template.bind({});
+Padrão.args = {
     texto: 'Tag'
 } as AbTagProps
