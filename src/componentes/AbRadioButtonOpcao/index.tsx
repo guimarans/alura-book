@@ -66,7 +66,7 @@ export interface AbRadioButtonOpcaoProps {
 
 export const AbRadioButtonOpcao = ({ opcoes, onChange }: AbRadioButtonOpcaoProps) => {
 
-    const [selecao, setSelecao] = useState<AbRadioButtonOpcao>()
+    const [, setSelecao] = useState<AbRadioButtonOpcao>()
 
     const aoSelecionar = (opcao: AbRadioButtonOpcao): void => {
         setSelecao(opcao);
