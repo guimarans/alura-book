@@ -1,3 +1,16 @@
+# v0.3.3 (Mon Apr 24 2023)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of https://github.com/guimarans/alura-book into main ([@guimarans](https://github.com/guimarans))
+- feat: desenvolvimento do input quantidade ([@guimarans](https://github.com/guimarans))
+
+#### Authors: 1
+
+- Kelly Guimarans ([@guimarans](https://github.com/guimarans))
+
+---
+
 # v0.3.2 (Mon Apr 24 2023)
 
 #### ⚠️ Pushed to `main`
