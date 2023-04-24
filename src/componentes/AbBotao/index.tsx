@@ -4,16 +4,17 @@ import styled, { css } from "styled-components";
 export interface AbBotaoProps {
     texto?: string,
     tipo?: 'primario' | 'secundario',
+    tamanho?: 'pequeno' | 'grande',
     onClick?: () => void
 }
 
 const BotaoEstilizado = styled.button<AbBotaoProps>`
     background: ${(props: AbBotaoProps) => props.tipo === 'primario' ? '#EB9B00' : '#fff'};
-    padding: 16px 32px;
+    padding: ${(props: AbBotaoProps) => props.tamanho === 'grande' ? '16px 32px' : '5px 20px'};
     border: 2px solid #EB9B00;
     color: ${(props: AbBotaoProps) => props.tipo === 'primario' ? '#FFF' : '#EB9B00'};
-    font-size: 20px;
-    cursor: point;
+    font-size: ${(props: AbBotaoProps) => props.tamanho === 'grande' ? '20px' : '14px'};
+    cursor: pointer;
     ${(props: AbBotaoProps) => props.tipo === 'primario' 
         ? css`
             &:hover {
@@ -32,9 +33,9 @@ const BotaoEstilizado = styled.button<AbBotaoProps>`
    
 `
 
-export const AbBotao = ({texto, tipo = 'primario', onClick}: AbBotaoProps) => {
+export const AbBotao = ({texto, tipo = 'primario', tamanho = 'grande', onClick}: AbBotaoProps) => {
     return (
-        <BotaoEstilizado onClick={onClick} tipo={tipo}> 
+        <BotaoEstilizado onClick={onClick} tipo={tipo} tamanho={tamanho}> 
             {texto}
         </BotaoEstilizado>
     )
