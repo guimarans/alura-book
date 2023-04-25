@@ -27,17 +27,18 @@ const InputEstilizado = styled.input `
 `
 
 export interface AbCampoTextoProps {
-    label: string;
+    label?: string;
+    placeholder?: string;
     value: string;
     type?: 'text' | 'email' | 'password' | 'date';
     onChange: (value: string) => void
 }
 
-export const AbCampoTexto = ({ label, value, onChange, type = 'text'} : AbCampoTextoProps) => {
+export const AbCampoTexto = ({ label, placeholder, value, onChange, type = 'text'} : AbCampoTextoProps) => {
     return(
         <div>
             <LabelEstilizada> { label } </LabelEstilizada>
-            <InputEstilizado type={type} value={value} onChange={event => onChange(event.target.value)} />
+            <InputEstilizado type={type} value={value} onChange={event => onChange(event.target.value)} placeholder={placeholder} />
         </div>
     )
 }
