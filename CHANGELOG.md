@@ -1,3 +1,15 @@
+# v0.3.8 (Fri Apr 28 2023)
+
+#### ⚠️ Pushed to `main`
+
+- feat: inclusão de estilo novo para tag ([@guimarans](https://github.com/guimarans))
+
+#### Authors: 1
+
+- Kelly Guimarans ([@guimarans](https://github.com/guimarans))
+
+---
+
 # v0.3.7 (Tue Apr 25 2023)
 
 #### ⚠️ Pushed to `main`
